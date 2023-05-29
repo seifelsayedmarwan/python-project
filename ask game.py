@@ -1,5 +1,8 @@
 import sys
-
+#A simple questions game consisting of three stages, each stage consists of ten questions, 
+# and for each question you answer correctly, you will be given a point, 
+# and if you do not answer, it will tell you the correct answer, 
+# and in the end it will tell you how many questions you answered correctly and how many points you collected
 print("                                             Welcome to questions Game")
 print("                                                     (login page)")
 
