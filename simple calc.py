@@ -3,36 +3,30 @@ import sys
 # which are addition, subtraction, multiplication and division, 
 # according to the user's choice. It works on two numbers only, according to the user's choice.
 print("Hello")
-num_1 = input("Enter the first number: ")
-num_2 = input("Enter the second number: ")
+num_1 = float(input("Enter the first number: "))
+arithmetic_operation = input("What arithmetic operation do you want?(Just write the sign):  ")
+num_2 = float(input("Enter the second number: "))
 
-calc = input("What arithmetic operation do you want? ")
+def plus(x , y):
+    return x + y
 
-if calc == "plus":
-    result = float(num_1) + float(num_2)
-    print(result)
-    sys.exit()
+def minus(x , y):
+    return x - y
 
-if calc == "minus":
-    calc_type = input("Do you want to minus the first number from the second or the second from the first? ")
-    if calc_type == "first from second":
-        result = float(num_2) - float(num_1)
-    else:
-        result = float(num_1) - float(num_2)
-    print(result)
-    sys.exit()
+def multiply(x , y):
+    return x * y
 
-if calc == "multiply":
-    result = float(num_1) * float(num_2)
-    print(result)
-    sys.exit()
+def divide(x , y):
+    return x / y
 
-if calc == "divide":
-    calc_type = input("Do you want to divide the first number / the second or the second / the first? ")
-    if calc_type == "first \ sconed":
-        result = float(num_1) / float(num_2)
-    else:
-        result = float(num_2) / float(num_1)
-    print(result)
-    sys.exit()
+if arithmetic_operation == "+":
+    print(plus(num_1 , num_2))
 
+elif arithmetic_operation == "-":
+    print(minus(num_1 , num_2))
+
+elif arithmetic_operation == "*":
+    print(multiply(num_1 , num_2))
+    
+elif arithmetic_operation == "/":
+    print(divide(num_1 , num_2))
