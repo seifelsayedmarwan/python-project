@@ -574,4 +574,8 @@ else:
 print("""You have finished the game and answered all the questions correctly, and this indicates that you are educated and know a lot of information""")
 print("You answer", score ,"question from 30 questions")
 print("Your score is:", score)
+if score > 22:
+    print("Your culture is excellent. Work on developing it")
+else:
+    print("You did not get the points required to succeed in the game")
 print(input("If there is any problem, tell us or press Enter to exit: "))
