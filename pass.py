@@ -1,5 +1,8 @@
 import random
 
+#A simple code to create a strong random password in case you need it.
+#  You just have to specify the length of the password and it will generate it
+
 def create_password(length):
     password = ""
     char = "01234567890123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@#$&@#$&abcdefghijklmnopqrstuvwxyz@#$&"
