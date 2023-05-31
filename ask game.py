@@ -22,7 +22,7 @@ print("   Note: The answer is in lowercase letters")
 score = 0
 ask = ""
 #1
-answer = "cairo" or "Cairo"
+answer = "cairo" 
 count = 0
 limit = 3
 lose = False
