@@ -1,7 +1,9 @@
 import random
 
 print("Welcome to the guess game")
-
+#A game in which the computer chooses a random number from one to nine 
+#you have to guess the number 
+#you have three attempts
 def random_num(length):
     num = ""
     char = "0123456789"
@@ -18,7 +20,7 @@ lose = False
 
 while True:
     if count < limit:
-        ask = input("Guess the number randomly chosen by the computer from zero to nine: ")
+        ask = input("Guess the number randomly chosen by the computer from zero to nine:\t")
         count += 1
 
         if ask == num:
