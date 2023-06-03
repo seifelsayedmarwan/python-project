@@ -1,5 +1,3 @@
-import turtle
+import termcolor
 
-for x in range(5):
-    turtle.forward(90)
-    turtle.left(90)
+termcolor.cprint("hello", "red")

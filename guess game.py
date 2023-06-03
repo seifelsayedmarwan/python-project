@@ -1,6 +1,7 @@
 import random
+import termcolor
 
-print("Welcome to the guess game")
+termcolor.cprint("Welcome to guess game", "green")
 #A game in which the computer chooses a random number from one to nine 
 #you have to guess the number 
 #you have three attempts
