@@ -12,7 +12,7 @@ def random_num(length):
         num += random.choice(char)
     return num
 
-length = 1  # تحديد طول العدد العشوائي
+length = 1 or 2  # تحديد طول العدد العشوائي
 num = random_num(length)
 
 count = 0
@@ -35,9 +35,3 @@ while True:
 
 if lose:
     print("You reached the maximum number of attempts. The correct number was:", num)
-
-
-
-
-
-    
