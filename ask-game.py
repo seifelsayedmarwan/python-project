@@ -18,7 +18,6 @@ else:
      sys.exit()
 
 print("                                                      (play page)")
-print("   Note: The answer is in lowercase letters")
 score = 0
 ask = ""
 #1
@@ -28,7 +27,7 @@ limit = 3
 lose = False
 while answer != ask and not lose:
     if count < limit:
-        ask = input("What is the capital  of Egypt? ")
+        ask = input("What is the capital  of Egypt? ").lower()
         count += 1
     else:
         lose = True
@@ -47,7 +46,7 @@ limit = 3
 lose = False
 while answer != ask and not lose:
     if count < limit:
-        ask = input("What is the capital of France? ")
+        ask = input("What is the capital of France? ").lower()
         count += 1
     else:
         lose = True
@@ -66,7 +65,7 @@ limit = 3
 lose = False
 while answer != ask and not lose:
     if count < limit:
-        ask = input("What is the tallest mountain in the world? ")
+        ask = input("What is the tallest mountain in the world? ").lower()
         count += 1
     else:
         lose = True
@@ -85,7 +84,7 @@ limit = 3
 lose = False
 while answer != ask and not lose:
     if count < limit:
-        ask = input("Which planet is known as the \"Red Planet\"? ")
+        ask = input("Which planet is known as the \"Red Planet\"? ").lower()
         count += 1
     else:
         lose = True
@@ -103,7 +102,7 @@ limit = 3
 lose = False
 while answer != ask and not lose:
     if count < limit:
-        ask = input("What is the largest ocean on Earth? ")
+        ask = input("What is the largest ocean on Earth? ").lower()
         count += 1
     else:
         lose = True
@@ -121,7 +120,7 @@ limit = 3
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("Which country is famous for the Great Wall? ")
+        ask = input("Which country is famous for the Great Wall? ").lower()
         count += 1
     else:
         lose = True
@@ -139,7 +138,7 @@ limit = 3
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the largest continent by land area? ")
+        ask = input("What is the largest continent by land area? ").lower()
         count += 1
     else:
         lose = True
@@ -157,7 +156,7 @@ limit = 3
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("Which city is known as the \"Big Apple\"? ")
+        ask = input("Which city is known as the \"Big Apple\"? ").lower()
         count += 1
     else:
         lose = True
@@ -175,7 +174,7 @@ limit = 3
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the capital city of Australia? ")
+        ask = input("What is the capital city of Australia? ").lower()
         count += 1
     else:
         lose = True
@@ -193,7 +192,7 @@ limit = 3
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the largest planet in our solar system? ")
+        ask = input("What is the largest planet in our solar system? ").lower()
         count += 1
     else:
         lose = True
@@ -213,7 +212,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count <limit:
-        ask = input("What is the currency of Japan? ")
+        ask = input("What is the currency of Japan? ").lower()
         count += 1
     else:
         lose = True
@@ -231,7 +230,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the largest country in the world by land area? ")
+        ask = input("What is the largest country in the world by land area? ").lower()
         count += 1
     else:
         lose = True
@@ -249,7 +248,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the currency of Germany? ")
+        ask = input("What is the currency of Germany? ").lower()
         count += 1
     else:
         lose = True
@@ -267,7 +266,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the capital city of Brazil? ")
+        ask = input("What is the capital city of Brazil? ").lower()
         count += 1
     else:
         lose = True
@@ -285,7 +284,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("Which country is home to the Great Barrier Reef? ")
+        ask = input("Which country is home to the Great Barrier Reef? ").lower()
         count += 1
     else:
         lose = True
@@ -303,7 +302,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the capital city of Canada? ")
+        ask = input("What is the capital city of Canada? ").lower()
         count += 1
     else:
         lose = True
@@ -321,7 +320,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("Which country is known for producing the most coffee in the world? ")
+        ask = input("Which country is known for producing the most coffee in the world? ").lower()
         count += 1
     else:
         lose = True
@@ -333,14 +332,14 @@ else:
     score += 1
 
 #18
-print("     Note: The answer to this question is only with the currency symbol and capital letters")
+
 answer = "GBP"
 count = 0
 limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the currency of the United Kingdom? ")
+        ask = input("What is the currency of the United Kingdom? ").lower()
         count += 1
     else:
         lose = True
@@ -358,7 +357,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the executive capital of South Africa? ")
+        ask = input("What is the executive capital of South Africa? ").lower()
         count += 1
     else:
         lose = True
@@ -375,7 +374,7 @@ limit = 2
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the capital city of Spain? ")
+        ask = input("What is the capital city of Spain? ").lower()
         count += 1
     else:
         lose = True
@@ -389,7 +388,7 @@ else:
 #third level
 print("        Welcome to the third level of the questions game")
 
-print("     Note: The answer to this question is only with the currency symbol and capital letters ")
+
 
 #21
 answer = "AUD"
@@ -398,7 +397,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the currency of Australia? ")
+        ask = input("What is the currency of Australia? ").lower()
         count += 1
     else:
         lose = True
@@ -416,7 +415,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("Which country is known for its pyramids? ")
+        ask = input("Which country is known for its pyramids? ").lower()
         count += 1
     else:
         lose = True
@@ -427,7 +426,7 @@ else:
     print("Right answer")
     score += 1
 
-print("     Note: The answer to this question is only with the currency symbol and capital letters")
+
 #23
 answer = "CAD"
 count = 0
@@ -435,7 +434,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the currency of Canada? ")
+        ask = input("What is the currency of Canada? ").lower()
         count += 1
     else:
         lose = True
@@ -453,7 +452,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the official language of Germany? ")
+        ask = input("What is the official language of Germany? ").lower()
         count += 1
     else:
         lose = True
@@ -471,7 +470,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("Which country is known for its historical landmarks such as the Colosseum and the Vatican? ")
+        ask = input("Which country is known for its historical landmarks such as the Colosseum and the Vatican? ").lower()
         count += 1
     else:
         lose = True
@@ -489,7 +488,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the official language of Spain? ")
+        ask = input("What is the official language of Spain? ").lower()
         count += 1
     else:
         lose = True
@@ -507,7 +506,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the name of the largest moon of Saturn? ")
+        ask = input("What is the name of the largest moon of Saturn? ").lower()
         count += 1
     else:
         lose = True
@@ -524,7 +523,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the chemical symbol for the element gold? ")
+        ask = input("What is the chemical symbol for the element gold? ").lower()
         count += 1
     else:
         lose = True
@@ -542,7 +541,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the capital city of South Korea? ")
+        ask = input("What is the capital city of South Korea? ").lower()
         count += 1
     else:
         lose = True
@@ -560,7 +559,7 @@ limit = 1
 lose = False
 while ask != answer and not lose:
     if count < limit:
-        ask = input("What is the chemical symbol for the element silver? ")
+        ask = input("What is the chemical symbol for the element silver? ").lower()
         count += 1
     else:
         lose = True
